@@ -1,0 +1,2 @@
+read -p 'username:' name => get variable "name" from user and befor it print "username: "
+if [ -d "$DIR/$name" ]; => check that name in directory DIR is exist or not.

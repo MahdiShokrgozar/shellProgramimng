@@ -1,0 +1,30 @@
+
+The find command is used to search or locate files based on various criteria such as timestamp, file type and file permissions in Linux.
+
+In Linux, a file contains three timestamps, which are updated when a file is accessed or modified or replaced.
+
+Types of file timestamps:
+
+atime: access time or Last access time
+mtime: modify time or Last modification time
+ctime: change time or Last change time
+
+atime/amin: The last time the file was accessed by some command or application.
+mtime/mmin: The last time the file’s contents was modified.
+ctime/cmin: The last time the file’s attribute was modified.
+
+It can be easily seen using ‘stat’ command, which displays all three timestamps of a file.
+
+We can use numerical arguments with ‘mtime’. Use “-mtime n” command to return a list of files that were last modified “n” hours ago.
+ 
++n: for greater than n
+-n: for less than n
+n: for exactly n
+
+-mtime +10: This will find all files that were modified 10 days ago.
+-mtime -10: It will find all files that were modified in the last 10 days.
+-mtime 10: Use this format to find all files that were modified EXACTLY 10 days ago.
+
+Alternatively, we can use an easy-to-understand format like the one below to find files and folders that have changed over the past 24 hours.
+
+find /home -newermt "-24 hours" -ls

@@ -1,0 +1,3 @@
+copy_zombie is a function that make a zombie.sh file and copy e5.sh into it. then take a execution permision for zombie.sh and run it.
+
+by `top` comand we can see procceses and by `kill PID` we can kill it.

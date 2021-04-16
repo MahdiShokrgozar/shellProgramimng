@@ -1,0 +1,72 @@
+Open source is one of the most fascinating things I’ve ever encountered in our industry. 
+It is a movement that essentially groups people together to work on a product because they want to. 
+They usually do it for free, especially during the first stages of the project, and then — get this — they maintain it so that others can use it. Also for free.
+I tend to think that if more industries were to adopt open source as we do in software development, things would be a lot easier. 
+Then again, that’s not why we’re here. In fact, this amazing, almost nirvana-like movement of open source is not as perfect as one might think because people are involved in it, and people aren’t perfect.
+During the lifespan of what we call open source, a lot of misconceptions have been created around it. 
+Most of them come from either not being an active part of it (i.e. only consuming its products but never contributing to it) or having bad luck and participating in the wrong first project, thus destroying what could’ve been an amazing experience.
+My intention with this article is to cover some of the most common lies about open source in our industry so you, the newcomer, can decide for yourself whether you want to be part of the movement or not.
+Let’s do this.
+Who hasn’t heard this one, right? Open source is free. We’re literally able to download libraries from places like GitHub without any costs, and we as developers know that we can publish there for free as well.
+So as long as we have our computer at hand, we can create code and share it with an amazing industry all for free.
+Wrong.
+We tend to associate costs with resources — usually physical resources — but since we already have a computer, what other resources do we need to produce and maintain open source software?
+Your time.
+That’s right: Your time is a resource. In fact, it’s one of the most valuable resources you have and you’re thinking about giving it away for free? Think again. The time you spend working on an open source project is probably time you’re not getting compensated for by your employer (unless you’re building that project for them). 
+So if there is no income in exchange for your time, what are you exchanging? Time with your loved ones? The time you could be spending relaxing? Hours of sleep? Exercising time?
+Your time is valuable and so is the time of everyone involved in an open source project. Simply because they’re willing to make the sacrifice of building something open for you to use doesn’t mean you’re entitled to demand whatever it is you’re thinking of demanding. 
+I’ve seen people demand 24-hour support or that their features get accepted because they need them for their own (private) projects. The list goes on.
+Depending on the project, you can be looking at a one-man team or a huge group led by a committee inside it spending time and other resources (yes, sometimes they need to spend money on these projects) so you can have that library or framework for free. 
+So next time you’re thinking about complaining abouut an OSS project, consider the cost it has on its maintainers.
+Open source software is free. Therefore, its maintainers and creators can’t make a living out of it.
+Wrong.
+At first glance, open source software is free for its users. But there is a lot more to understand before saying it can’t be a valid source of income.
+Like with any digital product, making money is all about your business model and the marketing strategy behind it. If you’re interested in making money from open source projects, here are some ideas for you to consider.
+Selling professional services
+This is the most common one. As I’ve said before, people tend to assume that because you’ve built a project and published it to the world, you need to support it 24 hours a day. That’s not only untrue, but it’s definitely a whole different area of work. So why not charge for it?
+In fact, why not charge for training as well and even provide support for companies trying to use your free product? Those are what we call professional services (services meant for companies using your product).
+There are big examples of open source projects doing this exact thing. For example, RedHat, IBM, Hortonworks (around Apache Hadoop), and Percona (for their open-source database).
+Selling related content
+How many books have you seen (or even read) about React or PHP? The books weren’t free, were they?
+If you managed to build an open source project that people like and use, then you can make money by giving those people products they can use to learn how to use it. This is very similar to the professional services model, yet that one implies you’re personally involved (thus allowing you to charge higher rates). However, with products, you can build cheap alternatives that are accessible to non-company users (i.e. developers trying to use your code).
+Even if you’re not the project’s author, you can benefit from their success by doing this exact same thing. You’re building products around an open source project (just not your own).
+We’re talking about writing books about it, creating video courses for platforms such as Udemy, or even writing sponsored blog posts about these OS projects. Why not? Sometimes, authors will be willing to pay you money to write about their projects.
+Donations
+You can make money from people donating to your cause. Don’t be afraid to ask for money. As long as it’s done tastefully, it’s definitely a valid income option.
+And if you’ve built a project that a big community is using, you’ll be surprised at the results. Looking at projects such as Git, you’ll see that they do receive donations from anyone interested in their cause.
+It’s all about the reach your project has and the community built behind it. If it’s big enough, then there is probably a way to make money out of it.
+There are many other ways you can go about building income from your open source work. It’s just a matter of getting creative.
+Your Contributions to It Define You as a Developer
+We all know that only developers who contribute to open source are worthy of the name, right?
+Wrong.
+Being able to contribute to open source (be it in the form of a project or through a PR to someone else’s project) is a privilege — not a requirement to get a job or to be considered good at what you do.
+Yes, OS contributors indeed benefit from their work by having it be public. This, in turn, allows both the industry and potential employers to find their work and get a somewhat biased level of understanding of their skills. However, it is also true that there are great closed-door developers out there unable to benefit from the same thing.
+Sure, you can say that they could take the time to contribute, but maybe they value their time in a different way than you do, thus rendering them unable to publish or contribute to OSS.
+What I’m calling out here is the fact that some companies or even some other developers assume you’re great at what you do if you do open source. Otherwise, you’re a corporate rat who’s unable to write a single if statement without looking it up on Google.
+And that is completely and utterly wrong. So stop doing it, OK?
+Maintaining Open Source Code Is Easy
+What can I say about this one? Maintaining any type of project is not easy, period. Add to that the fact that you’re doing it out of the goodness of your heart and you’ll start seeing the problem.
+When you’re building some closed-code project, you may have to share your code with four, maybe five other developers. When you’re maintaining open source code, the entire industry is capable of reviewing, commenting, and publicly shaming you for the code you wrote. So no pressure there, bud!
+There are many articles out there stating that one of the benefits of open source is that it forces you to write clean and maintainable code because of this fact. To me, being pressured into writing quality code is not a big selling point, but to each their own, right?
+Back to the point: Maintaining code that millions of developers could be using is a big responsibility. Even if you have the entire community trying to help, how can you be sure they have the same standards as you do? How can you be sure those ten PRs waiting for your review have considered all the potential security risks they could be adding to the project?
+Maintaining an open source project is a very difficult task if you do it right. Unfortunately, it can quickly lead to burnout. Back in 2018, a hacker gained control of an open source repository and introduced code to steal personal information. And that person did it because the owner and maintainer of an OS project being used by millions of other developers was so burnt out by the responsibility of keeping up with the requests of the community that they decided to give the project to someone else.
+They were tired and someone else took over.
+It’s Easy to Get Into
+There are plenty of open source projects, so surely it must be simple for someone to get started, right?
+Wrong.
+If you’re looking to start contributing to OSS projects, finding one that is actively looking for help and then helping in a way that the project’s maintainers will accept is not that easy. Some projects openly state that they’re looking for help and they even tag issues that are perfect for newcomers (a perfect example is Node.js, which tags its issues with “Help wanted” or “Good first issue” so you know where to start).
+There are, of course, projects that don’t do this — either because they’re not looking for external help or they don’t have experience with people wanting to contribute to their projects.
+If, on the other hand, you’re looking to get help on your own OSS project, then things are even harder because there is really no place for you to go and find help. Yes, if you have a large following on social media, you can probably find people. Otherwise, you’re depending on the popularity of your project and the interest it generates in others.
+You Can Copy the Code and Do Whatever You Want With It
+It’s free code after all, right?
+Well, not exactly.
+The pirate in all of us (admit it, we all have one) tends to think that if a piece of code is available for free, then we can do anything with it. And that includes copying the code and redistributing it under another name or even taking credit for it.
+This is why we invented licenses (actually, I don’t know for sure whether that’s the case, but you get the point). Every open source project that hopes to get used and reach some kind of audience should consider picking a license.
+This controls the way people can use, change, and redistribute it, protecting both you and your users from any illegal actions that might take place.
+Contrary to popular belief, a lack of a license does not mean you can do anything with the code. If you find a public project on a place such as GitHub, there are already some restrictions and implications agreed upon in the Terms of Service by the author of the repository. So if you, as a user, find a project that has no license, consider that its author actually decided to not share their code with anyone and that you can’t use it.
+If you’re an author and want to understand which is the best license for your project and your intentions with it, refer to Choose a License to get started.
+Licensing should be mandatory for all open source projects. And if you’re looking to help or even use one, you should pay attention to the implicit restrictions associated with the chosen license.
+Conclusion
+There are many assumptions developers have about open source software because we don’t normally pay for it. That being said, those assumptions are wrong and affect both the projects themselves and the lives of their authors and maintainers.
+In your opinion, what is the biggest lie about open source? Leave a comment down below and share your opinion!
+

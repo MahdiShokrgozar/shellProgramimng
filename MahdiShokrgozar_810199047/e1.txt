@@ -1,0 +1,11 @@
+wc is a function that get files and run wc.py and then print output in a nice way.
+
+/usr/bin/python3 /home/mahdi/shell_programing/HW1/wc.py $* > /tmp/temp.txt => run wc.py and print result in /tmp/temp.txt. $* get all inputs from shell
+
+Lines=$(cat "/tmp/temp.txt") => get file's info 
+for line in $Lines => get each word of lines and assign to line. 
+
+printf  '%b\n' "${line}" => each 4 word is printed in a row. at the and of row; %b\n prints a new line.
+printf "%-8s" $line => "%-8s" gets a 8 char widths for $line. if line length be  4 cahr, it added 4 space at the end.
+
+ls -S test_wc > /tmp/temp2.txt => it sort files of directory test_wc by size. 

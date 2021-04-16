@@ -1,0 +1,4 @@
+3 7 35 test_wc/a.txt
+4 10 56 test_wc/b.txt
+7 15 167 test_wc/c.txt
+14 32 258 total
